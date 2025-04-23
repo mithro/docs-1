@@ -128,6 +128,46 @@ be displayed. All devices' status should be `OK`.
     OK         USB             USB Mass Storage Device
     ```
 
+## USB001.010 USB devices detection in OS (XCP-NG)
+
+**Test steps**
+
+1. Power on the DUT.
+1. Boot into the system.
+1. Log into the system by using the proper login and password.
+1. Run the following command:
+
+    ```bash
+    watch -n1 lsusb
+    ```
+
+1. Connect external USB devices to DUT USB A port and note the result.
+
+**Expected result**
+
+1. After each device is connected to the USB port, a new USB device entry
+    in `lsusb` command output should appear.
+
+## USB001.011 USB devices detection in OS (ESXI)
+
+**Test steps**
+
+1. Power on the DUT.
+1. Boot into the system.
+1. Log into the system by using the proper login and password.
+1. Run the following command:
+
+```bash
+watch -n1 lsusb
+```
+
+1. Connect external USB devices to DUT USB A port and note the result.
+
+**Expected result**
+
+1. After each device is connected to the USB port, a new USB device entry
+    in `lsusb` command output should appear.
+
 ## USB002.001 USB keyboard detection (firmware)
 
 **Test description**
@@ -278,6 +318,70 @@ by the `OPERATING_SYSTEM` and all basic keys work according to their labels.
 
 1. All standard keyboard keys generate correct characters
    or actions when pressed.
+1. Key combinations are detected correctly.
+
+## USB002.010 USB keyboard detection (XCP-NG)
+
+**Test setup**
+
+1. Connect the external USB keyboard using the USB port.
+
+**Test steps**
+
+1. Power on the DUT.
+1. Boot into the system.
+1. Log into the system by using the proper login and password.
+1. Run the following command:
+
+    ```bash
+    lsusb
+    ```
+
+1. Run the following command in the terminal:
+
+    ```bash
+    showkey
+    ```
+
+1. Test the alphanumeric keys and note the generated keycodes.
+1. Test non-alphanumeric keys and verify that they generate the correct
+    keycodes.
+1. Test key combinations with the `Shift`, `Ctrl` and `Alt` modifier keys
+    (this tests 2-key rollover).
+
+## USB002.011 USB keyboard detection (ESXI)
+
+**Test setup**
+
+1. Connect the external USB keyboard using the USB port.
+
+**Test steps**
+
+1. Power on the DUT.
+1. Boot into the system.
+1. Log into the system by using the proper login and password.
+1. Run the following command:
+
+```bash
+lsusb
+```
+
+1. Press the alphanumeric keys and verify characters typed into the terminal.
+1. Press non-alphanumeric keys and verify characters typed into the terminal.
+1. Press key combinations with the `Shift`, `Ctrl` and `Alt` modifier keys
+    (this tests 2-key rollover).
+
+**Expected result**
+
+1. The external USB keyboard is detected in OS.
+1. All standard keyboard keys type the correct characters in the terminal.
+1. Key combinations are detected correctly.
+
+**Expected result**
+
+1. The external USB keyboard is detected in OS.
+1. All standard keyboard keys generate the correct keycodes and events as per
+   their labels.
 1. Key combinations are detected correctly.
 
 ## USB003.001 Upload 1GB file on USB storage (Ubuntu)

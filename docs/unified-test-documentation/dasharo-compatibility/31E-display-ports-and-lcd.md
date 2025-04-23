@@ -155,6 +155,40 @@ This test aims to verify initialization of the external HDMI display in the OS.
 1. The image should be displayed on the external HDMI display in `Duplicate`
     and `Extend` modes.
 
+## DSP002.010 External HDMI display in OS (XCP-NG)
+
+**Test setup**
+
+1. Connect an HDMI cable to the DUT and a display.
+
+**Test steps**
+
+1. Power on the DUT.
+1. Boot into the system.
+1. Log in by using the proper login and password.
+1. Note the result
+
+**Expected result**
+
+1. The image should be displayed on the external HDMI display.
+
+## DSP002.011 External HDMI display in OS (ESXI)
+
+**Test setup**
+
+1. Connect an HDMI cable to the DUT and a display.
+
+**Test steps**
+
+1. Power on the DUT.
+1. Boot into the system.
+1. Log in by using the proper login and password.
+1. Note the result
+
+**Expected result**
+
+1. The image should be displayed on the external HDMI display.
+
 ## DSP002.003 External HDMI display in firmware
 
 This test aims to verify initialization of the external HDMI display
@@ -241,6 +275,40 @@ display in the OS.
 
 1. The image should be displayed on the external Display Port connected display
     in `Duplicate` and `Extend` modes.
+
+## DSP003.010 External DP display in OS (XCP-NG)
+
+**Test setup**
+
+1. Connect a Display Port cable to the DUT and a display.
+
+**Test steps**
+
+1. Power on the DUT.
+2. Boot into the system.
+3. Log in by using the proper login and password.
+4. Note the result
+
+**Expected result**
+
+1. The image should be displayed on the external Display Port connected display.
+
+## DSP003.011 External DP display in OS (ESXI)
+
+**Test setup**
+
+1. Connect a Display Port cable to the DUT and a display.
+
+**Test steps**
+
+1. Power on the DUT.
+2. Boot into the system.
+3. Log in by using the proper login and password.
+4. Note the result
+
+**Expected result**
+
+1. The image should be displayed on the external Display Port connected display.
 
 ## DSP003.003 External DP display in firmware
 
