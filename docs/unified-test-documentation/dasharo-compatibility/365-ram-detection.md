@@ -13,7 +13,7 @@
 1. Proceed with the
    [Generic test setup: OS boot from disk](../generic-test-setup.md#os-boot-from-disk).
 
-## MEM001.010 Expected RAM size detected in OS (XCP-NG)
+## MEM001.0XX Expected RAM size detected in OS (Linux generic)
 
 **Test description**
 
@@ -23,7 +23,7 @@ detected and reported by the operating system.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = XCP-NG
+1. `OPERATING_SYSTEM` = _Linux-based_
 1. Expected RAM: (e.g. 8192 MB)
 
 **Test setup**
@@ -56,6 +56,14 @@ Example output for 8GB RAM:
 ```text
 MemTotal:        8012348 kB
 ```
+
+## MEM001.001 Expected RAM size detected in OS (Ubuntu)
+
+Follows the generic MEM001.0XX Linux-based test case
+
+## MEM001.010 Expected RAM size detected in OS (XCP-NG)
+
+Follows the generic MEM001.0XX Linux-based test case
 
 ### MEM001.011 Expected RAM Size Detected (ESXi)
 

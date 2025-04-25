@@ -13,7 +13,7 @@
 1. Proceed with the
    [Generic test setup: OS boot from disk](../generic-test-setup.md#os-boot-from-disk).
 
-## SAT001.010 SATA support (XCP-NG)
+## SAT001.0XX SATA support (Linux generic)
 
 **Test setup**
 
@@ -53,6 +53,14 @@
     SMART support is: Available - device has SMART capability.
     SMART support is: Enabled
     ```
+
+## SAT001.001 SATA support (Ubuntu)
+
+Follows the generic SAT001.0XX Linux-based test case
+
+## SAT001.010 SATA support (XCP-NG)
+
+Follows the generic SAT001.0XX Linux-based test case
 
 ## SAT001.011 SATA support (ESXi)
 

@@ -42,7 +42,7 @@ correctly by the firmware and all basic keys work according to their labels.
 
 1. Flash drive entry is listed in the boot menu.
 
-## USB001.002 USB devices detection in OS (Ubuntu)
+## USB001.0XX USB devices detection in OS (Linux generic)
 
 **Test description**
 
@@ -53,7 +53,7 @@ labels.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -77,6 +77,10 @@ labels.
 
 1. After each device is connected to the USB port, a new USB device entry
     in `lsusb` command output should appear.
+
+## USB001.002 USB devices detection in OS (Ubuntu)
+
+Follows the generic USB001.0XX Linux-based test case
 
 ## USB001.003 USB devices detection in OS (Windows)
 
@@ -130,43 +134,11 @@ be displayed. All devices' status should be `OK`.
 
 ## USB001.010 USB devices detection in OS (XCP-NG)
 
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log into the system by using the proper login and password.
-1. Run the following command:
-
-    ```bash
-    watch -n1 lsusb
-    ```
-
-1. Connect external USB devices to DUT USB A port and note the result.
-
-**Expected result**
-
-1. After each device is connected to the USB port, a new USB device entry
-    in `lsusb` command output should appear.
+Follows the generic USB001.0XX Linux-based test case
 
 ## USB001.011 USB devices detection in OS (ESXI)
 
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log into the system by using the proper login and password.
-1. Run the following command:
-
-```bash
-watch -n1 lsusb
-```
-
-1. Connect external USB devices to DUT USB A port and note the result.
-
-**Expected result**
-
-1. After each device is connected to the USB port, a new USB device entry
-    in `lsusb` command output should appear.
+Follows the generic USB001.0XX Linux-based test case
 
 ## USB002.001 USB keyboard detection (firmware)
 
@@ -195,7 +167,7 @@ by the firmware and all basic keys work according to their labels.
 
 1. All menus can be entered using the external USB keyboard.
 
-## USB002.002 USB keyboard detection (Ubuntu)
+## USB002.0XX USB keyboard detection (Linux generic)
 
 **Test description**
 
@@ -205,7 +177,7 @@ by the `OPERATING_SYSTEM` and all basic keys work according to their labels.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -243,6 +215,10 @@ by the `OPERATING_SYSTEM` and all basic keys work according to their labels.
 1. All standard keyboard keys generate the correct keycodes and events as per
    their labels.
 1. Key combinations are detected correctly.
+
+## USB002.002 USB keyboard detection (Ubuntu)
+
+Follows the generic USB002.0XX Linux-based test case
 
 ## USB002.003 USB keyboard detection (Windows)
 
@@ -322,67 +298,11 @@ by the `OPERATING_SYSTEM` and all basic keys work according to their labels.
 
 ## USB002.010 USB keyboard detection (XCP-NG)
 
-**Test setup**
-
-1. Connect the external USB keyboard using the USB port.
-
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log into the system by using the proper login and password.
-1. Run the following command:
-
-    ```bash
-    lsusb
-    ```
-
-1. Run the following command in the terminal:
-
-    ```bash
-    showkey
-    ```
-
-1. Test the alphanumeric keys and note the generated keycodes.
-1. Test non-alphanumeric keys and verify that they generate the correct
-    keycodes.
-1. Test key combinations with the `Shift`, `Ctrl` and `Alt` modifier keys
-    (this tests 2-key rollover).
+Follows the generic USB002.0XX Linux-based test case
 
 ## USB002.011 USB keyboard detection (ESXI)
 
-**Test setup**
-
-1. Connect the external USB keyboard using the USB port.
-
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log into the system by using the proper login and password.
-1. Run the following command:
-
-```bash
-lsusb
-```
-
-1. Press the alphanumeric keys and verify characters typed into the terminal.
-1. Press non-alphanumeric keys and verify characters typed into the terminal.
-1. Press key combinations with the `Shift`, `Ctrl` and `Alt` modifier keys
-    (this tests 2-key rollover).
-
-**Expected result**
-
-1. The external USB keyboard is detected in OS.
-1. All standard keyboard keys type the correct characters in the terminal.
-1. Key combinations are detected correctly.
-
-**Expected result**
-
-1. The external USB keyboard is detected in OS.
-1. All standard keyboard keys generate the correct keycodes and events as per
-   their labels.
-1. Key combinations are detected correctly.
+Follows the generic USB002.0XX Linux-based test case
 
 ## USB003.001 Upload 1GB file on USB storage (Ubuntu)
 

@@ -39,7 +39,7 @@ during firmware execution phase.
 
 1. Logo appears on the screen during firmware execution phase.
 
-## DSP001.002 Internal LCD in OS (Ubuntu)
+## DSP001.0XX Internal LCD in OS (Linux generic)
 
 **Test description**
 
@@ -48,7 +48,7 @@ This test aims to verify initialization of the laptop's embedded LCD in the OS.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -66,6 +66,10 @@ This test aims to verify initialization of the laptop's embedded LCD in the OS.
 
 1. Either the login screen or the `OPERATING_SYSTEM` installer appears on the
     internal LCD.
+
+## DSP001.002 Internal LCD in OS (Ubuntu)
+
+Follows the generic DSP001.0XX Linux-based test case
 
 ## DSP001.003 Internal LCD in OS (Windows)
 
@@ -95,7 +99,7 @@ This test aims to verify initialization of the laptop's embedded LCD in the OS.
 1. Either the login screen or the `OPERATING_SYSTEM` installer appears on the
     internal LCD.
 
-## DSP002.201 External HDMI display in OS (Ubuntu)
+## DSP002.2XX External HDMI display in OS (Linux generic)
 
 **Test description**
 
@@ -104,7 +108,7 @@ This test aims to verify initialization of the external HDMI display in the OS.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -124,6 +128,10 @@ This test aims to verify initialization of the external HDMI display in the OS.
 
 1. The image should be displayed on the external HDMI display in `Mirror` and
     `Join Displays` modes.
+
+## DSP002.201 External HDMI display in OS (Ubuntu)
+
+Follows the generic DSP002.0XX Linux-based test case
 
 ## DSP002.301 External HDMI display in OS (Windows)
 
@@ -157,37 +165,13 @@ This test aims to verify initialization of the external HDMI display in the OS.
 
 ## DSP002.010 External HDMI display in OS (XCP-NG)
 
-**Test setup**
-
-1. Connect an HDMI cable to the DUT and a display.
-
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log in by using the proper login and password.
-1. Note the result
-
-**Expected result**
-
-1. The image should be displayed on the external HDMI display.
+Follows the generic DSP002.0XX Linux-based test case. Only the output on a
+single monitor needs to observed; skip the OS menu-specific steps.
 
 ## DSP002.011 External HDMI display in OS (ESXI)
 
-**Test setup**
-
-1. Connect an HDMI cable to the DUT and a display.
-
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log in by using the proper login and password.
-1. Note the result
-
-**Expected result**
-
-1. The image should be displayed on the external HDMI display.
+Follows the generic DSP002.0XX Linux-based test case. Only the output on a
+single monitor needs to observed; skip the OS menu-specific steps.
 
 ## DSP002.003 External HDMI display in firmware
 
@@ -214,7 +198,7 @@ during firmware execution phase.
 
 1. Logo appears on the screen during firmware execution phase.
 
-## DSP003.001 External DP display in OS (Ubuntu)
+## DSP003.0XX External DP display in OS (Linux generic)
 
 **Test description**
 
@@ -224,7 +208,7 @@ in the OS.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -244,6 +228,10 @@ in the OS.
 
 1. The image should be displayed on the external Display Port connected display
     in `Mirror` and `Join Displays` modes.
+
+## DSP003.001 External DP display in OS (Ubuntu)
+
+Follows the generic DSP003.0XX Linux-based test case.
 
 ## DSP003.002 External DP display in OS (Windows)
 
@@ -278,37 +266,13 @@ display in the OS.
 
 ## DSP003.010 External DP display in OS (XCP-NG)
 
-**Test setup**
-
-1. Connect a Display Port cable to the DUT and a display.
-
-**Test steps**
-
-1. Power on the DUT.
-2. Boot into the system.
-3. Log in by using the proper login and password.
-4. Note the result
-
-**Expected result**
-
-1. The image should be displayed on the external Display Port connected display.
+Follows the generic DSP003.0XX Linux-based test case. Only the output on a
+single monitor needs to observed; skip the OS menu-specific steps.
 
 ## DSP003.011 External DP display in OS (ESXI)
 
-**Test setup**
-
-1. Connect a Display Port cable to the DUT and a display.
-
-**Test steps**
-
-1. Power on the DUT.
-2. Boot into the system.
-3. Log in by using the proper login and password.
-4. Note the result
-
-**Expected result**
-
-1. The image should be displayed on the external Display Port connected display.
+Follows the generic DSP003.0XX Linux-based test case. Only the output on a
+single monitor needs to observed; skip the OS menu-specific steps.
 
 ## DSP003.003 External DP display in firmware
 

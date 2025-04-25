@@ -27,7 +27,7 @@ detect NVMe disk in the M.2 slot.
 
 1. The NVMe disk should be listed on the bootable devices list.
 
-## NVM001.002 NVMe support (Ubuntu)
+## NVM001.0XX NVMe support (Linux generic)
 
 **Test description**
 
@@ -37,7 +37,7 @@ the M.2 slot.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -67,6 +67,10 @@ sudo mount | grep 'on / '
 ```bash
 /dev/nvme* on / tpe ext4 (rw,relatime,errors=remount-ro)
 ```
+
+## NVM001.002 NVMe support (Ubuntu)
+
+Follows the generic NVM001.0XX Linux-based test case
 
 ## NVM001.003 NVMe support in OS (Windows)
 
@@ -113,31 +117,7 @@ M.2 slot.
 
 ## NVM001.010 NVMe support (XCP-NG)
 
-**Test setup**
-
-1. Insert a NVMe disk into the M.2 slot on the DUT.
-1. Install OS on the disc.
-
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log into the system by using the proper login and password.
-1. Execute the following command:
-
-```bash
-sudo mount | grep 'on / '
-```
-
-**Expected result**
-
-1. The `OPERATING_SYSTEM` has been booted from the NVMe disk correctly.
-1. Output in Terminal indicates that system partition is installed on the NVMe
-    disk:
-
-```bash
-/dev/nvme* on / tpe ext3 (rw,relatime)
-```
+Follows the generic NVM001.0XX Linux-based test case
 
 ## NVM001.011 NVMe support (ESXI)
 

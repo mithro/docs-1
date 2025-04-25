@@ -19,7 +19,7 @@ and the Atheros one.
 1. Proceed with the
     [Generic test setup: OS boot from disk](../generic-test-setup.md#os-boot-from-disk).
 
-## WLE001.001 Wireless card detection (Ubuntu)
+## WLE001.0XX Wireless card detection (Linux generic)
 
 **Test description**
 
@@ -29,7 +29,7 @@ and can be detected from the operating system.
 **Test configuration data**
 
 1. `FIRMWARE` = Dasharo
-1. `OPERATING_SYSTEM` = Ubuntu
+1. `OPERATING_SYSTEM` = _Linux-based_
 
 **Test setup**
 
@@ -57,6 +57,10 @@ Example output:
 ```bash
 2f:00.0 Network controller: Intel Corporation Wi-Fi 6 AX201 (rev 1a)
 ```
+
+## WLE001.001 Wireless card detection (Ubuntu)
+
+Follows the generic WLE001.0XX Linux-based test case
 
 ## WLE001.002 Wireless card detection (Windows)
 
@@ -101,31 +105,7 @@ Intel(R) Wi-Fi 6AX200 160MHz
 
 ## WLE001.010 Wireless card detection (XCP-NG)
 
-**Test setup**
-
-1. Insert a compatible Wi-Fi + BT wireless adapter card into the device
-
-**Test steps**
-
-1. Power on the DUT.
-1. Boot into the system.
-1. Log into the system by using the proper login and password.
-1. Open a terminal window and execute the following command:
-
-```bash
-lspci | grep "Network Controller"
-```
-
-**Expected result**
-
-The output of the command should contain information about the wireless adapter
-card inserted into the device.
-
-Example output:
-
-```bash
-2f:00.0 Network controller: Intel Corporation Wi-Fi 6 AX201 (rev 1a)
-```
+Follows the generic WLE001.0XX Linux-based test case
 
 ## WLE002.001 Wi-Fi scanning (Ubuntu)
 
