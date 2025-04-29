@@ -56,11 +56,11 @@
 
 ## SAT001.001 SATA support (Ubuntu)
 
-Follows the generic SAT001.0XX Linux-based test case
+Follows the [generic SAT001.0XX Linux-based test case](#sat0010xx-sata-support-linux-generic)
 
 ## SAT001.010 SATA support (XCP-NG)
 
-Follows the generic SAT001.0XX Linux-based test case
+Follows the [generic SAT001.0XX Linux-based test case](#sat0010xx-sata-support-linux-generic)
 
 ## SAT001.011 SATA support (ESXi)
 

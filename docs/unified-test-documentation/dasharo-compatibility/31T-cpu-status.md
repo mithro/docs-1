@@ -40,7 +40,7 @@ The `OPERATING_SYSTEM` screen should be displayed.
 
 ## CPU001.001 CPU works (Ubuntu)
 
-Follows the generic CPU001.0XX Linux-based test case
+Follows the [generic CPU001.0XX Linux-based test case](#cpu0010xx-cpu-works-linux-generic)
 
 ## CPU001.002 CPU works (Windows)
 
@@ -69,11 +69,11 @@ The `OPERATING_SYSTEM` screen should be displayed.
 
 ## CPU001.010 CPU works (XCP-NG)
 
-Follows the generic CPU001.0XX Linux-based test case
+Follows the [generic CPU001.0XX Linux-based test case](#cpu0010xx-cpu-works-linux-generic)
 
 ## CPU001.011 CPU works (ESXI)
 
-Follows the generic CPU001.0XX Linux-based test case
+Follows the [generic CPU001.0XX Linux-based test case](#cpu0010xx-cpu-works-linux-generic)
 
 ## CPU002.0XX CPU cache enabled (Linux generic)
 
@@ -128,7 +128,7 @@ LEVEL4_CACHE_LINESIZE              0
 
 ## CPU002.001 CPU cache enabled (Ubuntu)
 
-Follows the generic CPU002.0XX Linux-based test case
+Follows the [generic CPU002.0XX Linux-based test case](#cpu0020xx-cpu-cache-enabled-linux-generic)
 
 ## CPU002.002 CPU cache enabled (Windows)
 
@@ -183,7 +183,7 @@ InstalledSize : 8192
 
 ## CPU002.010 CPU cache enabled (XCP-NG)
 
-Follows the generic CPU002.0XX Linux-based test case
+Follows the [generic CPU002.0XX Linux-based test case](#cpu0020xx-cpu-cache-enabled-linux-generic)
 
 ## CPU002.011 CPU cache enabled (ESXI)
 
@@ -262,7 +262,7 @@ NUMA node(s):                    2
 
 ## CPU003.001 Multiple CPU support (Ubuntu)
 
-Follows the generic CPU003.0XX Linux-based test case
+Follows the [generic CPU003.0XX Linux-based test case](#cpu0030xx-multiple-cpu-support-linux-generic)
 
 ## CPU003.002 Multiple CPU support (Windows)
 
@@ -304,7 +304,7 @@ NumberOfCores
 
 ## CPU003.010 Multiple CPU support (XCP-NG)
 
-Follows the generic CPU003.0XX Linux-based test case
+Follows the [generic CPU003.0XX Linux-based test case](#cpu0030xx-multiple-cpu-support-linux-generic)
 
 ## CPU003.011 Multiple CPU support (ESXI)
 
@@ -383,7 +383,7 @@ NUMA node(s):                    2
 
 ## CPU004.001 Multiple-core support (Ubuntu)
 
-Follows the generic CPU004.0XX Linux-based test case
+Follows the [generic CPU004.0XX Linux-based test case](#cpu0040xx-multiple-core-support-linux-generic)
 
 ## CPU004.002 Multiple-core support (Windows)
 
@@ -441,7 +441,7 @@ NumberOfCores
 
 ## CPU004.010 Multiple-core support (XCP-NG)
 
-Follows the generic CPU004.0XX Linux-based test case
+Follows the [generic CPU004.0XX Linux-based test case](#cpu0040xx-multiple-core-support-linux-generic)
 
 ## CPU004.011 Multiple-core support (ESXI)
 

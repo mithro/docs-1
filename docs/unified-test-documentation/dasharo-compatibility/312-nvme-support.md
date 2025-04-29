@@ -70,7 +70,7 @@ sudo mount | grep 'on / '
 
 ## NVM001.002 NVMe support (Ubuntu)
 
-Follows the generic NVM001.0XX Linux-based test case
+Follows the [generic NVM001.0XX Linux-based test case](#nvm0010xx-nvme-support-linux-generic)
 
 ## NVM001.003 NVMe support in OS (Windows)
 
@@ -117,7 +117,7 @@ M.2 slot.
 
 ## NVM001.010 NVMe support (XCP-NG)
 
-Follows the generic NVM001.0XX Linux-based test case
+Follows the [generic NVM001.0XX Linux-based test case](#nvm0010xx-nvme-support-linux-generic)
 
 ## NVM001.011 NVMe support (ESXI)
 

@@ -80,7 +80,7 @@ labels.
 
 ## USB001.002 USB devices detection in OS (Ubuntu)
 
-Follows the generic USB001.0XX Linux-based test case
+Follows the [generic USB001.0XX Linux-based test case](#usb0010xx-usb-devices-detection-in-os-linux-generic)
 
 ## USB001.003 USB devices detection in OS (Windows)
 
@@ -134,11 +134,11 @@ be displayed. All devices' status should be `OK`.
 
 ## USB001.010 USB devices detection in OS (XCP-NG)
 
-Follows the generic USB001.0XX Linux-based test case
+Follows the [generic USB001.0XX Linux-based test case](#usb0010xx-usb-devices-detection-in-os-linux-generic)
 
 ## USB001.011 USB devices detection in OS (ESXI)
 
-Follows the generic USB001.0XX Linux-based test case
+Follows the [generic USB001.0XX Linux-based test case](#usb0010xx-usb-devices-detection-in-os-linux-generic)
 
 ## USB002.001 USB keyboard detection (firmware)
 
@@ -218,7 +218,7 @@ by the `OPERATING_SYSTEM` and all basic keys work according to their labels.
 
 ## USB002.002 USB keyboard detection (Ubuntu)
 
-Follows the generic USB002.0XX Linux-based test case
+Follows the [generic USB002.0XX Linux-based test case](#usb0020xx-usb-keyboard-detection-linux-generic)
 
 ## USB002.003 USB keyboard detection (Windows)
 
@@ -298,11 +298,11 @@ by the `OPERATING_SYSTEM` and all basic keys work according to their labels.
 
 ## USB002.010 USB keyboard detection (XCP-NG)
 
-Follows the generic USB002.0XX Linux-based test case
+Follows the [generic USB002.0XX Linux-based test case](#usb0020xx-usb-keyboard-detection-linux-generic)
 
 ## USB002.011 USB keyboard detection (ESXI)
 
-Follows the generic USB002.0XX Linux-based test case
+Follows the [generic USB002.0XX Linux-based test case](#usb0020xx-usb-keyboard-detection-linux-generic)
 
 ## USB003.001 Upload 1GB file on USB storage (Ubuntu)
 

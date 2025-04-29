@@ -59,11 +59,11 @@ MemTotal:        8012348 kB
 
 ## MEM001.001 Expected RAM size detected in OS (Ubuntu)
 
-Follows the generic MEM001.0XX Linux-based test case
+Follows the [generic MEM001.0XX Linux-based test case](#mem0010xx-expected-ram-size-detected-in-os-linux-generic)
 
 ## MEM001.010 Expected RAM size detected in OS (XCP-NG)
 
-Follows the generic MEM001.0XX Linux-based test case
+Follows the [generic MEM001.0XX Linux-based test case](#mem0010xx-expected-ram-size-detected-in-os-linux-generic)
 
 ### MEM001.011 Expected RAM Size Detected (ESXi)
 

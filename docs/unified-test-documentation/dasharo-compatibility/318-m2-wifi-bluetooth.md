@@ -60,7 +60,7 @@ Example output:
 
 ## WLE001.001 Wireless card detection (Ubuntu)
 
-Follows the generic WLE001.0XX Linux-based test case
+Follows the [generic WLE001.0XX Linux-based test case](#wle0010xx-wireless-card-detection-linux-generic)
 
 ## WLE001.002 Wireless card detection (Windows)
 
@@ -105,7 +105,7 @@ Intel(R) Wi-Fi 6AX200 160MHz
 
 ## WLE001.010 Wireless card detection (XCP-NG)
 
-Follows the generic WLE001.0XX Linux-based test case
+Follows the [generic WLE001.0XX Linux-based test case](#wle0010xx-wireless-card-detection-linux-generic)
 
 ## WLE002.001 Wi-Fi scanning (Ubuntu)
 

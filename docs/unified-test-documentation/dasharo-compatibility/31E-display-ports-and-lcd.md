@@ -69,7 +69,7 @@ This test aims to verify initialization of the laptop's embedded LCD in the OS.
 
 ## DSP001.002 Internal LCD in OS (Ubuntu)
 
-Follows the generic DSP001.0XX Linux-based test case
+Follows the [generic DSP001.0XX Linux-based test case](#dsp0010xx-internal-lcd-in-os-linux-generic)
 
 ## DSP001.003 Internal LCD in OS (Windows)
 
@@ -131,7 +131,7 @@ This test aims to verify initialization of the external HDMI display in the OS.
 
 ## DSP002.201 External HDMI display in OS (Ubuntu)
 
-Follows the generic DSP002.0XX Linux-based test case
+Follows the [generic DSP002.0XX Linux-based test case](#dsp002003-external-hdmi-display-in-firmware)
 
 ## DSP002.301 External HDMI display in OS (Windows)
 
@@ -165,13 +165,15 @@ This test aims to verify initialization of the external HDMI display in the OS.
 
 ## DSP002.010 External HDMI display in OS (XCP-NG)
 
-Follows the generic DSP002.0XX Linux-based test case. Only the output on a
-single monitor needs to observed; skip the OS menu-specific steps.
+Follows the [generic DSP002.0XX Linux-based test case](#dsp002003-external-hdmi-display-in-firmware)
+Only the output on a single monitor needs to observed; skip the OS
+menu-specific steps.
 
 ## DSP002.011 External HDMI display in OS (ESXI)
 
-Follows the generic DSP002.0XX Linux-based test case. Only the output on a
-single monitor needs to observed; skip the OS menu-specific steps.
+Follows the [generic DSP002.0XX Linux-based test case](#dsp002003-external-hdmi-display-in-firmware)
+Only the output on a single monitor needs to observed; skip the OS
+menu-specific steps.
 
 ## DSP002.003 External HDMI display in firmware
 
@@ -231,7 +233,7 @@ in the OS.
 
 ## DSP003.001 External DP display in OS (Ubuntu)
 
-Follows the generic DSP003.0XX Linux-based test case.
+Follows the [generic DSP003.0XX Linux-based test case](#dsp0030xx-external-dp-display-in-os-linux-generic)
 
 ## DSP003.002 External DP display in OS (Windows)
 
@@ -266,13 +268,15 @@ display in the OS.
 
 ## DSP003.010 External DP display in OS (XCP-NG)
 
-Follows the generic DSP003.0XX Linux-based test case. Only the output on a
-single monitor needs to observed; skip the OS menu-specific steps.
+Follows the [generic DSP003.0XX Linux-based test case](#dsp0030xx-external-dp-display-in-os-linux-generic)
+Only the output on a single monitor needs to observed; skip the OS
+menu-specific steps.
 
 ## DSP003.011 External DP display in OS (ESXI)
 
-Follows the generic DSP003.0XX Linux-based test case. Only the output on a
-single monitor needs to observed; skip the OS menu-specific steps.
+Follows the [generic DSP003.0XX Linux-based test case](#dsp0030xx-external-dp-display-in-os-linux-generic)
+Only the output on a single monitor needs to observed; skip the OS
+menu-specific steps.
 
 ## DSP003.003 External DP display in firmware
 

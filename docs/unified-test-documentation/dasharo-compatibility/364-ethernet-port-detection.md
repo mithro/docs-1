@@ -13,7 +13,7 @@
 1. Proceed with the
    [Generic test setup: OS boot from disk](../generic-test-setup.md#os-boot-from-disk).
 
-## ETH001.010 All Expected NET Controllers Detected (Linux based)
+## ETH001.0XX All Expected NET Controllers Detected (Linux generic)
 
 **Test description**
 
@@ -62,11 +62,11 @@ Example output:
 
 ## ETH001.001 All Expected NET Controllers Detected (Ubuntu)
 
-Follows the generic ETH001.0XX Linux-based test case
+Follows the [generic ETH001.0XX Linux-based test case](#eth0010xx-all-expected-net-controllers-detected-linux-generic)
 
 ## ETH001.010 All Expected NET Controllers Detected (XCP-NG)
 
-Follows the generic ETH001.0XX Linux-based test case
+Follows the [generic ETH001.0XX Linux-based test case](#eth0010xx-all-expected-net-controllers-detected-linux-generic)
 
 ## ETH001.011 All Expected NET Controllers Detected (ESXi)
 
@@ -150,8 +150,8 @@ Example output:
 
 ## ETH002.010 All Expected SFP Controllers Detected (Ubuntu)
 
-Follows the generic ETH002.0XX Linux-based test case
+Follows the [generic ETH002.0XX Linux-based test case](#eth0020xx-all-expected-sfp-controllers-detected-linux-generic)
 
 ## ETH002.010 All Expected SFP Controllers Detected (XCP-NG)
 
-Follows the generic ETH002.0XX Linux-based test case
+Follows the [generic ETH002.0XX Linux-based test case](#eth0020xx-all-expected-sfp-controllers-detected-linux-generic)
